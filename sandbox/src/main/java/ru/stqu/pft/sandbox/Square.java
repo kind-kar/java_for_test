@@ -3,7 +3,7 @@ package ru.stqu.pft.sandbox;
 public class Square {
     public double l;
 
-    public Square(Double len) {
+    public Square(double len) { // конструктор
         this.l = len;
     }
     public double area() {
