@@ -10,6 +10,7 @@ public class MyFirstProgram {
 
         Rectangle r = new Rectangle(3.0, 4.0);
         System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
+
     }
     public static void hello() {
         System.out.println("Hello, world");
