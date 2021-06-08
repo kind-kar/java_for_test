@@ -112,4 +112,12 @@ public class TestBase {
     protected void gotoAddNewContactPage() {
       wd.findElement(By.linkText("add new")).click();
     }
+
+    protected void selectGroup() {
+      wd.findElement(By.name("selected[]")).click();
+    }
+
+    protected void deleteSelectedGroups() {
+      wd.findElement(By.name("delete")).click();
+    }
 }
