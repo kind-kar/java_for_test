@@ -14,11 +14,15 @@ public class TestBase {
     private WebDriver wd;
 
     @BeforeMethod(alwaysRun = true)
-    public void setUp() throws Exception {
-      wd = new ChromeDriver();
-      wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-      wd.get("http://localhost/addressbook/");
-      login("admin", "secret");
+    public void setUp() {
+        init();
+    }
+
+    private void init() {
+        wd = new ChromeDriver();
+        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wd.get("http://localhost/addressbook/");
+        login("admin", "secret");
     }
 
     private void login(String username, String password) {
@@ -62,8 +66,12 @@ public class TestBase {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown() throws Exception {
-      wd.quit();
+    public void tearDown() {
+        stop();
+    }
+
+    private void stop() {
+        wd.quit();
     }
 
     private boolean isElementPresent(By by) {
