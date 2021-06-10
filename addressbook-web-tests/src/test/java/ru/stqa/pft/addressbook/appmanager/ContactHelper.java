@@ -4,31 +4,35 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.addressbook.model.ContactData;
 
-public class ContactHelper {
-    private WebDriver wd;
+public class ContactHelper extends HelperBase{
+
 
     public ContactHelper(WebDriver wd) {
-        this.wd = wd;
+        super(wd);
     }
 
     public void submitContactCreation() {
         wd.findElement(By.xpath("(//input[@name='submit'])[2]")).click();
     }
 
-    public void fillContactData(ContactData contact) {
-        wd.findElement(By.name("firstname")).click();
-        wd.findElement(By.name("firstname")).clear();
-        wd.findElement(By.name("firstname")).sendKeys(contact.getFirstName());
-        wd.findElement(By.name("lastname")).click();
-        wd.findElement(By.name("lastname")).clear();
-        wd.findElement(By.name("lastname")).sendKeys(contact.getLastName());
-        wd.findElement(By.name("address")).click();
-        wd.findElement(By.name("address")).clear();
-        wd.findElement(By.name("address")).sendKeys(contact.getAddress());
-        wd.findElement(By.name("email")).clear();
-        wd.findElement(By.name("email")).sendKeys(contact.getEmail());
-        wd.findElement(By.name("mobile")).click();
-        wd.findElement(By.name("mobile")).clear();
-        wd.findElement(By.name("mobile")).sendKeys(contact.getPhone());
+    public void fillContactData(ContactData contactData) {
+        type(By.name("firstname"), contactData.getFirstName());
+        type(By.name("lastname"), contactData.getLastName());
+        type(By.name("address"), contactData.getAddress());
+        type(By.name("email"), contactData.getEmail());
+        type(By.name("mobile"), contactData.getPhone());
     }
+
+    public void selectContact() {
+        click(By.name("selected[]"));
+    }
+
+    public void deleteSelectedContact() {
+        click(By.xpath("(//input[@value='Delete'])"));
+    }
+
+    public void submitAlert() {
+        wd.switchTo().alert().accept();
+    }
+
 }
