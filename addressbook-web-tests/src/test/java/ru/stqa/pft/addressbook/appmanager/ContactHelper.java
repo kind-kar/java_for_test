@@ -12,7 +12,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public void submitContactCreation() {
-        wd.findElement(By.xpath("(//input[@name='submit'])[2]")).click();
+        click(By.xpath("(//input[@name='submit'])[2]"));
     }
 
     public void fillContactData(ContactData contactData) {
@@ -35,4 +35,11 @@ public class ContactHelper extends HelperBase{
         wd.switchTo().alert().accept();
     }
 
+    public void initContactModification() {
+        click(By.xpath("(//img[@alt='Edit'])"));
+    }
+
+    public void submitContactModification() {
+        click(By.xpath("(//input[@name='update'])[2]"));
+    }
 }
