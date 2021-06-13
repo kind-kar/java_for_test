@@ -16,6 +16,7 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
     private String browser;
+    private HelperBase helperBase;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -33,11 +34,12 @@ public class ApplicationManager {
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
+        helperBase = new HelperBase(wd);
         sessionHelper.login("admin", "secret");
     }
 
     public void logout() {
-        wd.findElement(By.linkText("Logout")).click();
+        helperBase.click(By.linkText("Logout"));
     }
 
     public void stop() {
@@ -45,7 +47,7 @@ public class ApplicationManager {
     }
 
     public void returnToHomePage() {
-        wd.findElement(By.linkText("home page")).click();
+        helperBase.click(By.linkText("home page"));
     }
 
 
