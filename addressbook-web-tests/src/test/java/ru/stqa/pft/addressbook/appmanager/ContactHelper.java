@@ -9,6 +9,10 @@ import ru.stqa.pft.addressbook.model.ContactData;
 public class ContactHelper extends HelperBase{
 
 
+    public boolean isTheAContact() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
     public ContactHelper(WebDriver wd) {
         super(wd);
     }
@@ -49,5 +53,10 @@ public class ContactHelper extends HelperBase{
 
     public void submitContactModification() {
         click(By.xpath("(//input[@name='update'])[2]"));
+    }
+
+    public void createContact(ContactData contactData, boolean b) {
+        fillContactData(contactData, b);
+        submitContactCreation();
     }
 }
