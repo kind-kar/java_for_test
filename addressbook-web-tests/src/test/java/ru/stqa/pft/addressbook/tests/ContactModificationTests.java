@@ -15,7 +15,7 @@ public class ContactModificationTests extends TestBase {
         if (! app.getContactHelper().isTheAContact()) {
             app.getNavigationHelper().gotoAddNewContactPage();
             app.getContactHelper().createContact(new ContactData("Test", "Test",
-                    null, null, null, "test1"), true);
+                    "Am Helmholtzring\n4d", "kind-kar@mail.ru", "71111111111", "test1"), true);
             app.returnToHomePage();
         }
         List<ContactData> before = app.getContactHelper().getContactList();
