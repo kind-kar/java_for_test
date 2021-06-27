@@ -22,7 +22,7 @@ public class ContactData {
     }
 
     public ContactData(String firstName, String lastName, String address, String email, String phone, String group) {
-        this.id = 0;
+        this.id = Integer.MAX_VALUE;
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -30,8 +30,6 @@ public class ContactData {
         this.phone = phone;
         this.group = group;
     }
-
-
 
     public String getFirstName() {
         return firstName;
@@ -85,5 +83,4 @@ public class ContactData {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
-
 }
