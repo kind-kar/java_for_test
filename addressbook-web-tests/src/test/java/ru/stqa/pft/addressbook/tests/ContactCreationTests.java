@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ContactCreationTests extends TestBase {
 
-  @Test(enabled = false)
+  @Test
   public void testContactCreation() {
     List<ContactData> before = app.getContactHelper().getContactList();
     app.getNavigationHelper().gotoAddNewContactPage();
@@ -27,6 +27,5 @@ public class ContactCreationTests extends TestBase {
     before.sort(byId);
     after.sort(byId);
     Assert.assertEquals(after, before);
-    app.logout();
   }
 }
