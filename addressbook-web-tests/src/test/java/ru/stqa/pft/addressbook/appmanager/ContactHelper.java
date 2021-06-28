@@ -65,11 +65,16 @@ public class ContactHelper extends HelperBase{
         submitContactCreation();
     }
 
+    public void create(ContactData contact) {
+        fillContactData(contact, true);
+        submitContactCreation();
+    }
+
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-    public List<ContactData> getContactList() {
+    public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> strings = wd.findElements(By.tagName("tr"));
         strings.remove(0);
