@@ -13,7 +13,7 @@ public class ContactModificationTests extends TestBase {
     @Test
     public void contactModificationTests() {
         if (! app.getContactHelper().isTheAContact()) {
-            app.getNavigationHelper().gotoAddNewContactPage();
+            app.goTo().gotoAddNewContactPage();
             app.getContactHelper().createContact(new ContactData("Test", "Test",
                     "Am Helmholtzring\n4d", "kind-kar@mail.ru", "71111111111", "test2"), true);
             app.returnToHomePage();
