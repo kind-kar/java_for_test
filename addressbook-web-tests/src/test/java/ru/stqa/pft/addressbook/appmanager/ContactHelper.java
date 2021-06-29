@@ -60,14 +60,15 @@ public class ContactHelper extends HelperBase{
         click(By.xpath("(//input[@name='update'])[2]"));
     }
 
-    public void createContact(ContactData contactData, boolean b) {
+    public void create(ContactData contactData, boolean b) {
         fillContactData(contactData, b);
         submitContactCreation();
     }
 
-    public void create(ContactData contact) {
-        fillContactData(contact, true);
-        submitContactCreation();
+    public void delete(int index) {
+        selectContact(index);
+        deleteSelectedContact();
+        submitAlert();
     }
 
     public int getContactCount() {
