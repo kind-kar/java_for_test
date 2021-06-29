@@ -52,7 +52,6 @@ public class ContactHelper extends HelperBase{
 
     public void initContactModification(int id) {
         wd.findElement(By.cssSelector("a[href='edit.php?id=" + id + "']")).click();
-/*        wd.findElements(By.xpath("(//img[@alt='Edit'])")).get(index).click(); */
     }
 
     public void submitContactModification() {
@@ -64,12 +63,6 @@ public class ContactHelper extends HelperBase{
         submitContactCreation();
     }
 
-    public void delete(int index) {
-        selectContact(index);
-        deleteSelectedContact();
-        submitAlert();
-    }
-
     public void delete(ContactData contact) {
         selectContactById(contact.getId());
         deleteSelectedContact();
@@ -78,14 +71,6 @@ public class ContactHelper extends HelperBase{
 
     private void selectContactById(int id) {
         wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
-    }
-
-    public void selectContact(int index) {
-        wd.findElements(By.name("selected[]")).get(index).click();
-    }
-
-    public int getContactCount() {
-        return wd.findElements(By.name("selected[]")).size();
     }
 
     public List<ContactData> list() {
