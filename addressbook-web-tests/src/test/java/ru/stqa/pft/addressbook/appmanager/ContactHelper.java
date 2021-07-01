@@ -92,9 +92,9 @@ public class ContactHelper extends HelperBase{
             String lastname = cells.get(1).getText();
             String firstname = cells.get(2).getText();
             int id = Integer.parseInt(string.findElement(By.tagName("input")).getAttribute("value"));
-            String[] phones = cells.get(5).getText().split("\n");
+            String allPhones = cells.get(5).getText();
             ContactData contact = new ContactData().withId(id).withLastName(lastname).
-                    withFirstName(firstname).withHome(phones[0]).withMobile(phones[1]).withWork(phones[2]);
+                    withFirstName(firstname).withAllPhones(allPhones);
             contacts.add(contact);
         }
         return contacts;
