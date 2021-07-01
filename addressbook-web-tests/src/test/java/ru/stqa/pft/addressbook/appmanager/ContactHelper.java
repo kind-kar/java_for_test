@@ -48,8 +48,11 @@ public class ContactHelper extends HelperBase{
         String home = wd.findElement(By.name("home")).getAttribute("value");
         String mobile = wd.findElement(By.name("mobile")).getAttribute("value");
         String work = wd.findElement(By.name("work")).getAttribute("value");
+        String address = wd.findElement(By.name("address")).getAttribute("value");
+        String email = wd.findElement(By.name("email")).getAttribute("value");
         wd.navigate().back();
-        return new ContactData().withId(contact.getId()).withFirstName(firstname).withLastName(lastname).withMobile(mobile).withWork(work).withHome(home);
+        return new ContactData().withId(contact.getId()).withFirstName(firstname).withLastName(lastname).
+                withMobile(mobile).withWork(work).withHome(home).withAddress(address).withEmail(email);
     }
 
     public void deleteSelectedContact() {
@@ -93,8 +96,10 @@ public class ContactHelper extends HelperBase{
             String firstname = cells.get(2).getText();
             int id = Integer.parseInt(string.findElement(By.tagName("input")).getAttribute("value"));
             String allPhones = cells.get(5).getText();
+            String address = cells.get(3).getText();
+            String email = cells.get(4).getText();
             ContactData contact = new ContactData().withId(id).withLastName(lastname).
-                    withFirstName(firstname).withAllPhones(allPhones);
+                    withFirstName(firstname).withAllPhones(allPhones).withAddress(address).withEmail(email);
             contacts.add(contact);
         }
         return contacts;
