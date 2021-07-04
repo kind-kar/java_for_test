@@ -4,6 +4,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -14,7 +17,8 @@ public class ContactEmailTests extends TestBase {
         if (app.contact().all().size() == 0) {
             app.goTo().contactPage();
             app.contact().create(new ContactData().withFirstName("Test").withLastName("Test1").
-                    withAddress("Homeaddress 4, Sankt-Petersburg").withEmail("example@mail.com").withGroup("test1")
+                    withAddress("Homeaddress 4, Sankt-Petersburg").withEmail("example@mail.com").
+                    withEmailTwo("email2@mail.com").withEmailThree("email3@mail.com").withGroup("test1")
                     .withHome("123-4").withMobile("791111-111111").withWork("45678-"), true);
             app.returnToHomePage();
         }
@@ -26,6 +30,12 @@ public class ContactEmailTests extends TestBase {
         ContactData contact = app.contact().all().iterator().next();
         ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
 
-        assertThat(contact.getEmail(), equalTo(contactInfoFromEditForm.getEmail()));
+        assertThat(contact.getAllEmails(), equalTo(mergeEmails(contactInfoFromEditForm)));
+    }
+
+    public String mergeEmails(ContactData contact) {
+        return Arrays.asList(contact.getEmail(), contact.getEmailTwo(), contact.getEmailThree()).
+                stream().filter((s) -> ! s.equals("")).
+                collect(Collectors.joining("\n"));
     }
 }

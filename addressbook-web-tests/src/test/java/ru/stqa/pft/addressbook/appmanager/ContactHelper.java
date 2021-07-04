@@ -30,6 +30,8 @@ public class ContactHelper extends HelperBase{
         type(By.name("lastname"), contactData.getLastName());
         type(By.name("address"), contactData.getAddress());
         type(By.name("email"), contactData.getEmail());
+        type(By.name("email2"), contactData.getEmailTwo());
+        type(By.name("email3"), contactData.getEmailThree());
         type(By.name("mobile"), contactData.getMobile());
         type(By.name("home"), contactData.getHome());
         type(By.name("work"), contactData.getWork());
@@ -53,9 +55,12 @@ public class ContactHelper extends HelperBase{
         String work = wd.findElement(By.name("work")).getAttribute("value");
         String address = wd.findElement(By.name("address")).getAttribute("value");
         String email = wd.findElement(By.name("email")).getAttribute("value");
+        String email2 = wd.findElement(By.name("email2")).getAttribute("value");
+        String email3 = wd.findElement(By.name("email3")).getAttribute("value");
         wd.navigate().back();
         return new ContactData().withId(contact.getId()).withFirstName(firstname).withLastName(lastname).
-                withMobile(mobile).withWork(work).withHome(home).withAddress(address).withEmail(email);
+                withMobile(mobile).withWork(work).withHome(home).withAddress(address).withEmail(email).
+                withEmailTwo(email2).withEmailThree(email3);
     }
 
     public void deleteSelectedContact() {
@@ -100,9 +105,9 @@ public class ContactHelper extends HelperBase{
             int id = Integer.parseInt(string.findElement(By.tagName("input")).getAttribute("value"));
             String allPhones = cells.get(5).getText();
             String address = cells.get(3).getText();
-            String email = cells.get(4).getText();
+            String allEmails = cells.get(4).getText();
             ContactData contact = new ContactData().withId(id).withLastName(lastname).
-                    withFirstName(firstname).withAllPhones(allPhones).withAddress(address).withEmail(email);
+                    withFirstName(firstname).withAllPhones(allPhones).withAddress(address).withAllEmails(allEmails);
             contacts.add(contact);
         }
         return contacts;
