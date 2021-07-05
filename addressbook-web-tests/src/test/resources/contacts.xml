@@ -1,0 +1,57 @@
+<list>
+  <contact>
+    <firstName>Test 0</firstName>
+    <lastName>Testov 0</lastName>
+    <address>city S, street 0</address>
+    <email>test0@mail.ru</email>
+    <email2>test0@example.ru</email2>
+    <email3>test0@gmail.ru</email3>
+    <mobile>79111111110</mobile>
+    <home>1110</home>
+    <work>8900</work>
+  </contact>
+  <contact>
+    <firstName>Test 1</firstName>
+    <lastName>Testov 1</lastName>
+    <address>city S, street 1</address>
+    <email>test1@mail.ru</email>
+    <email2>test1@example.ru</email2>
+    <email3>test1@gmail.ru</email3>
+    <mobile>79111111111</mobile>
+    <home>1111</home>
+    <work>8901</work>
+  </contact>
+  <contact>
+    <firstName>Test 2</firstName>
+    <lastName>Testov 2</lastName>
+    <address>city S, street 2</address>
+    <email>test2@mail.ru</email>
+    <email2>test2@example.ru</email2>
+    <email3>test2@gmail.ru</email3>
+    <mobile>79111111112</mobile>
+    <home>1112</home>
+    <work>8902</work>
+  </contact>
+  <contact>
+    <firstName>Test 3</firstName>
+    <lastName>Testov 3</lastName>
+    <address>city S, street 3</address>
+    <email>test3@mail.ru</email>
+    <email2>test3@example.ru</email2>
+    <email3>test3@gmail.ru</email3>
+    <mobile>79111111113</mobile>
+    <home>1113</home>
+    <work>8903</work>
+  </contact>
+  <contact>
+    <firstName>Test 4</firstName>
+    <lastName>Testov 4</lastName>
+    <address>city S, street 4</address>
+    <email>test4@mail.ru</email>
+    <email2>test4@example.ru</email2>
+    <email3>test4@gmail.ru</email3>
+    <mobile>79111111114</mobile>
+    <home>1114</home>
+    <work>8904</work>
+  </contact>
+</list>

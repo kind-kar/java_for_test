@@ -1,0 +1,112 @@
+<list>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 0</firstName>
+    <lastName>Testov 0</lastName>
+    <email>test0@mail.ru</email>
+    <email2>test0@example.ru</email2>
+    <email3>test0@gmail.ru</email3>
+    <mobile>79111111110</mobile>
+    <home>1110</home>
+    <work>8900</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 1</firstName>
+    <lastName>Testov 1</lastName>
+    <email>test1@mail.ru</email>
+    <email2>test1@example.ru</email2>
+    <email3>test1@gmail.ru</email3>
+    <mobile>79111111111</mobile>
+    <home>1111</home>
+    <work>8901</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 2</firstName>
+    <lastName>Testov 2</lastName>
+    <email>test2@mail.ru</email>
+    <email2>test2@example.ru</email2>
+    <email3>test2@gmail.ru</email3>
+    <mobile>79111111112</mobile>
+    <home>1112</home>
+    <work>8902</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 3</firstName>
+    <lastName>Testov 3</lastName>
+    <email>test3@mail.ru</email>
+    <email2>test3@example.ru</email2>
+    <email3>test3@gmail.ru</email3>
+    <mobile>79111111113</mobile>
+    <home>1113</home>
+    <work>8903</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 4</firstName>
+    <lastName>Testov 4</lastName>
+    <email>test4@mail.ru</email>
+    <email2>test4@example.ru</email2>
+    <email3>test4@gmail.ru</email3>
+    <mobile>79111111114</mobile>
+    <home>1114</home>
+    <work>8904</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 5</firstName>
+    <lastName>Testov 5</lastName>
+    <email>test5@mail.ru</email>
+    <email2>test5@example.ru</email2>
+    <email3>test5@gmail.ru</email3>
+    <mobile>79111111115</mobile>
+    <home>1115</home>
+    <work>8905</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 6</firstName>
+    <lastName>Testov 6</lastName>
+    <email>test6@mail.ru</email>
+    <email2>test6@example.ru</email2>
+    <email3>test6@gmail.ru</email3>
+    <mobile>79111111116</mobile>
+    <home>1116</home>
+    <work>8906</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 7</firstName>
+    <lastName>Testov 7</lastName>
+    <email>test7@mail.ru</email>
+    <email2>test7@example.ru</email2>
+    <email3>test7@gmail.ru</email3>
+    <mobile>79111111117</mobile>
+    <home>1117</home>
+    <work>8907</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 8</firstName>
+    <lastName>Testov 8</lastName>
+    <email>test8@mail.ru</email>
+    <email2>test8@example.ru</email2>
+    <email3>test8@gmail.ru</email3>
+    <mobile>79111111118</mobile>
+    <home>1118</home>
+    <work>8908</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+  <ru.stqa.pft.addressbook.model.ContactData>
+    <id>2147483647</id>
+    <firstName>Test 9</firstName>
+    <lastName>Testov 9</lastName>
+    <email>test9@mail.ru</email>
+    <email2>test9@example.ru</email2>
+    <email3>test9@gmail.ru</email3>
+    <mobile>79111111119</mobile>
+    <home>1119</home>
+    <work>8909</work>
+  </ru.stqa.pft.addressbook.model.ContactData>
+</list>
