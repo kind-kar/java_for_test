@@ -57,11 +57,13 @@ public class ContactDataGenerator {
 
     private List<ContactData> generateContact(int count) {
         List<ContactData> contacts = new ArrayList<>();
+        File photo = new File("src/test/resources/1556777145_1.jpg");
         for (int i = 0; i < count; i++) {
             contacts.add(new ContactData().withFirstName(String.format("Test %s", i)).withLastName(String.format("Testov %s", i)).
                     withHome(String.format("111%s", i)).withMobile(String.format("7911111111%s", i)).withWork(String.format("890%s", i)).
                     withEmail(String.format("test%s@mail.ru", i)).withEmailTwo(String.format("test%s@example.ru", i)).
-                    withEmailThree(String.format("test%s@gmail.ru", i)).withAddress(String.format("city S, street %s", i)));
+                    withEmailThree(String.format("test%s@gmail.ru", i)).withAddress(String.format("city S, street %s", i)).withPhoto(photo).
+                    withGroup(String.format("test %s", i)));
         }
         return contacts;
     }

@@ -9,6 +9,8 @@
     <mobile>79111111110</mobile>
     <home>1110</home>
     <work>8900</work>
+    <group>test 0</group>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
     <firstName>Test 1</firstName>
@@ -20,6 +22,8 @@
     <mobile>79111111111</mobile>
     <home>1111</home>
     <work>8901</work>
+    <group>test 1</group>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
     <firstName>Test 2</firstName>
@@ -31,6 +35,8 @@
     <mobile>79111111112</mobile>
     <home>1112</home>
     <work>8902</work>
+    <group>test 2</group>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
     <firstName>Test 3</firstName>
@@ -42,6 +48,8 @@
     <mobile>79111111113</mobile>
     <home>1113</home>
     <work>8903</work>
+    <group>test 3</group>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
     <firstName>Test 4</firstName>
@@ -53,5 +61,7 @@
     <mobile>79111111114</mobile>
     <home>1114</home>
     <work>8904</work>
+    <group>test 4</group>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
 </list>
