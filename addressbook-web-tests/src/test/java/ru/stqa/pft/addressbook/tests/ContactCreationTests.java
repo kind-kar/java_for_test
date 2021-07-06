@@ -36,6 +36,7 @@ public class ContactCreationTests extends TestBase {
 
   @Test(dataProvider = "validContacts")
   public void testContactCreation(ContactData contact) {
+    app.goTo().gotoHomePage();
     Contacts before = app.contact().all();
     app.goTo().contactPage();
     app.contact().create(contact, true);
