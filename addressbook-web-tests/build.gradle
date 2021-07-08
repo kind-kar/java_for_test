@@ -23,8 +23,9 @@ task testContacts(type: Test) {
     useTestNG {
         suites 'src/test/resources/testng-contacts.xml'
     }
+    systemProperty 'browser', "${browser}"
 }
 
 test {
-    useTestNG ()
+    useTestNG()
 }
