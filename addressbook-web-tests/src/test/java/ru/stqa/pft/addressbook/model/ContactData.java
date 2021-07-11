@@ -3,30 +3,51 @@ package ru.stqa.pft.addressbook.model;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
 
+import javax.persistence.*;
 import java.io.File;
 import java.util.Objects;
 
 @XStreamAlias("contact")
+@Entity
+@Table(name = "addressbook")
 public class ContactData {
 
     @XStreamOmitField
+    @Id
+    @Column(name = "id")
     private int id = Integer.MAX_VALUE;
+
+    @Column(name = "firstname")
     private String firstName;
+
+    @Column(name = "lastname")
     private String lastName;
     private String address;
     private String email;
     private String email2;
     private String email3;
+
+    @Column(name = "mobile")
     private String mobile;
     private String allEmails;
+
+    @Column(name = "home")
     private String home;
+
+    @Column(name = "work")
     private String work;
+
+    @Transient
     private String group;
+
+    @Transient
     private String allPhones;
-    private File photo;
+
+    @Column(name = "photo")
+    private String photo;
 
     public File getPhoto() {
-        return photo;
+        return new File(photo);
     }
 
     public String getAllPhones() {
@@ -78,7 +99,7 @@ public class ContactData {
     }
 
     public ContactData withPhoto(File photo) {
-        this.photo = photo;
+        this.photo = photo.getPath();
         return this;
     }
 
