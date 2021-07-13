@@ -186,7 +186,6 @@ public class ContactData {
         return this;
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -194,12 +193,19 @@ public class ContactData {
         ContactData that = (ContactData) o;
         return id == that.id &&
                 Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName);
+                Objects.equals(lastName, that.lastName) &&
+                Objects.equals(address, that.address) &&
+                Objects.equals(email, that.email) &&
+                Objects.equals(email2, that.email2) &&
+                Objects.equals(email3, that.email3) &&
+                Objects.equals(mobile, that.mobile) &&
+                Objects.equals(home, that.home) &&
+                Objects.equals(work, that.work);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, lastName);
+        return Objects.hash(id, firstName, lastName, address, email, email2, email3, mobile, home, work);
     }
 
     @Override
@@ -208,6 +214,13 @@ public class ContactData {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", email='" + email + '\'' +
+                ", email2='" + email2 + '\'' +
+                ", email3='" + email3 + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", home='" + home + '\'' +
+                ", work='" + work + '\'' +
                 '}';
     }
 }
