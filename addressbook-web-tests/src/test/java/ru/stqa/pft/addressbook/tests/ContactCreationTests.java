@@ -30,18 +30,18 @@ public class ContactCreationTests extends TestBase {
     }
     XStream xstream = new XStream();
     xstream.processAnnotations(ContactData.class);
-    List<ContactData> groups = (List<ContactData>) xstream.fromXML(xml);
-    return groups.stream().map((c) -> new Object[] {c}).collect(Collectors.toList()).iterator();
+    List<ContactData> contacts = (List<ContactData>) xstream.fromXML(xml);
+    return contacts.stream().map((c) -> new Object[] {c}).collect(Collectors.toList()).iterator();
   }
 
   @Test(dataProvider = "validContacts")
   public void testContactCreation(ContactData contact) {
     app.goTo().gotoHomePage();
-    Contacts before = app.contact().all();
+    Contacts before = app.db().contacts();
     app.goTo().contactPage();
     app.contact().create(contact, true);
     app.returnToHomePage();
-    Contacts after = app.contact().all();
+    Contacts after = app.db().contacts();
     Assert.assertEquals(after.size(), before.size() + 1);
     assertThat(after, equalTo(
             before.withAdded(contact.withId(after.stream().mapToInt((c) -> c.getId()).max().getAsInt()))));
