@@ -18,7 +18,7 @@ public class ContactModificationTests extends TestBase {
         if (app.db().contacts().size() == 0) {
             app.goTo().contactPage();
             app.contact().create(new ContactData().withFirstName("Test").withLastName("Test1").
-                    withAddress("City").withEmail("example@mail.com").withGroup("test 1").withHome("791111111111").withMobile("1234").
+                    withAddress("City").withEmail("example@mail.com").withHome("791111111111").withMobile("1234").
                     withWork("45678").withPhoto(new File("src/test/resources/1556777145_1.jpg")), true);
             app.returnToHomePage();
         }

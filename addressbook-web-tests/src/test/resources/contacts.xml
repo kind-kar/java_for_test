@@ -9,7 +9,7 @@
     <mobile>79111111110</mobile>
     <home>1110</home>
     <work>8900</work>
-    <group>test 0</group>
+    <groups/>
     <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
@@ -22,7 +22,7 @@
     <mobile>79111111111</mobile>
     <home>1111</home>
     <work>8901</work>
-    <group>test 1</group>
+    <groups/>
     <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
   <contact>
@@ -35,7 +35,33 @@
     <mobile>79111111112</mobile>
     <home>1112</home>
     <work>8902</work>
-    <group>test 2</group>
+    <groups/>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
+  </contact>
+  <contact>
+    <firstName>Test 3</firstName>
+    <lastName>Testov 3</lastName>
+    <address>city S, street 3</address>
+    <email>test3@mail.ru</email>
+    <email2>test3@example.ru</email2>
+    <email3>test3@gmail.ru</email3>
+    <mobile>79111111113</mobile>
+    <home>1113</home>
+    <work>8903</work>
+    <groups/>
+    <photo>src\test\resources\1556777145_1.jpg</photo>
+  </contact>
+  <contact>
+    <firstName>Test 4</firstName>
+    <lastName>Testov 4</lastName>
+    <address>city S, street 4</address>
+    <email>test4@mail.ru</email>
+    <email2>test4@example.ru</email2>
+    <email3>test4@gmail.ru</email3>
+    <mobile>79111111114</mobile>
+    <home>1114</home>
+    <work>8904</work>
+    <groups/>
     <photo>src\test\resources\1556777145_1.jpg</photo>
   </contact>
 </list>
