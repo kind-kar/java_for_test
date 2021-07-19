@@ -24,19 +24,8 @@ public class HttpSession {
         httpclient = HttpClients.custom().setRedirectStrategy(new LaxRedirectStrategy()).build();
     }
 
-    public boolean login(String username) throws IOException {
-        HttpPost post = new HttpPost(app.getProperty("web.baseUrl") + "/login_page.php");
-        List<NameValuePair> params = new ArrayList<>();
-        params.add(new BasicNameValuePair("username", username));
-        params.add(new BasicNameValuePair("return", "index.php"));
-        post.setEntity(new UrlEncodedFormEntity(params));
-        CloseableHttpResponse response = httpclient.execute(post);
-        String body = getTextForm(response);
-        return body.contains(String.format("Введите пароль для '%s'", username));
-    }
-
-    public boolean password(String password, String username) throws IOException {
-        HttpPost post = new HttpPost(app.getProperty("web.baseUrl") + "/login.php");
+    public boolean login(String password, String username) throws IOException {
+        HttpPost post = new HttpPost(app.getProperty("web.baseUrl") + "/login_password_page.php");
         List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("username", username));
         params.add(new BasicNameValuePair("password", password));
@@ -45,7 +34,7 @@ public class HttpSession {
         post.setEntity(new UrlEncodedFormEntity(params));
         CloseableHttpResponse response = httpclient.execute(post);
         String body = getTextForm(response);
-        return body.contains(String.format("<span class=\"italic\">%s<span/>", username));
+        return body.contains(String.format("<a class=\"pull-right\" href=\"lost_pwd_page.php?username=%s\">Lost your password?</a>", username));
     }
 
     private String getTextForm(CloseableHttpResponse response) throws IOException {
@@ -60,6 +49,6 @@ public class HttpSession {
         HttpGet get = new HttpGet(app.getProperty("web.baseUrl") + "/index.php");
         CloseableHttpResponse response = httpclient.execute(get);
         String body = getTextForm(response);
-        return body.contains(String.format("<span class=\"italic\">%s<span/>", username));
+        return body.contains("<input type=\"hidden\" name=\"return\" value=\"index.php\" />");
     }
 }
