@@ -23,10 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/RegistrationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/FtpHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config_inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +89,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nik\GitHub\java_for_test\mantis-tests\src\test\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.mantis.appmanager" />
     </key>
@@ -131,21 +140,36 @@
     </configuration>
     <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.stqa.pft.mantis.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.mantis.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.mantis.tests.RegistrationTests" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.LoginTests" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.RegistrationTests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegistrationTests" />
@@ -184,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626712222529</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="registrationHelper">
+      <created>1626713747268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626713747268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,63 +233,95 @@
     <MESSAGE value="падает тест на логине" />
     <MESSAGE value="системный файлы" />
     <MESSAGE value="loginTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="loginTests" />
+    <MESSAGE value="registrationHelper" />
+    <option name="LAST_COMMIT_MESSAGE" value="registrationHelper" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Intentions" timestamp="1626714833888">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1626714833888" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626717398644">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626717398644" />
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1626699048125">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1626699048125" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626700662165">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1626714513952">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626700662165" />
-    <state width="1237" height="69" key="GridCell.Tab.0.bottom" timestamp="1626712247801">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626714513952" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626717396681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="69" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626712247801" />
-    <state width="1237" height="69" key="GridCell.Tab.0.center" timestamp="1626712247801">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626717396681" />
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom" timestamp="1626717522233">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="69" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626712247801" />
-    <state width="1237" height="69" key="GridCell.Tab.0.left" timestamp="1626712247800">
+    <state width="1237" height="236" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626717522233" />
+    <state width="1237" height="236" key="GridCell.Tab.0.center" timestamp="1626717522233">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="69" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626712247800" />
-    <state width="1237" height="69" key="GridCell.Tab.0.right" timestamp="1626712247801">
+    <state width="1237" height="236" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626717522233" />
+    <state width="1237" height="236" key="GridCell.Tab.0.left" timestamp="1626717522232">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="69" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626712247801" />
-    <state width="1237" height="329" key="GridCell.Tab.1.bottom" timestamp="1626712042915">
+    <state width="1237" height="236" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626717522232" />
+    <state width="1237" height="236" key="GridCell.Tab.0.right" timestamp="1626717522233">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="329" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626712042915" />
-    <state width="1237" height="329" key="GridCell.Tab.1.center" timestamp="1626712042915">
+    <state width="1237" height="236" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626717522233" />
+    <state width="1237" height="236" key="GridCell.Tab.1.bottom" timestamp="1626717523586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="329" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626712042915" />
-    <state width="1237" height="329" key="GridCell.Tab.1.left" timestamp="1626712042915">
+    <state width="1237" height="236" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626717523586" />
+    <state width="1237" height="236" key="GridCell.Tab.1.center" timestamp="1626717523586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="329" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626712042915" />
-    <state width="1237" height="329" key="GridCell.Tab.1.right" timestamp="1626712042915">
+    <state width="1237" height="236" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626717523586" />
+    <state width="1237" height="236" key="GridCell.Tab.1.left" timestamp="1626717523586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="329" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626712042915" />
+    <state width="1237" height="236" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626717523586" />
+    <state width="1237" height="236" key="GridCell.Tab.1.right" timestamp="1626717523586">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="236" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626717523586" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1626692628691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626692628691" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1626712234105">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1626713748771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626712234105" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626713748771" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626711995475">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1626711995475" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/RegistrationTests.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/FtpHelper.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/FtpHelper.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="body" />
