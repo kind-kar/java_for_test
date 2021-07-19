@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/HttpSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/HttpSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626692494550</updated>
     </task>
+    <task id="LOCAL-00001" summary="падает тест на логине">
+      <created>1626700966243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626700966243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +151,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="падает тест на логине" />
+    <option name="LAST_COMMIT_MESSAGE" value="падает тест на логине" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1626699048125">
       <screen x="0" y="0" width="1280" height="680" />
@@ -157,42 +164,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626700662165" />
-    <state width="1237" height="41" key="GridCell.Tab.0.bottom" timestamp="1626700565886">
+    <state width="1237" height="85" key="GridCell.Tab.0.bottom" timestamp="1626701706292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="41" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626700565886" />
-    <state width="1237" height="41" key="GridCell.Tab.0.center" timestamp="1626700565886">
+    <state width="1237" height="85" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626701706292" />
+    <state width="1237" height="85" key="GridCell.Tab.0.center" timestamp="1626701706291">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="41" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626700565886" />
-    <state width="1237" height="41" key="GridCell.Tab.0.left" timestamp="1626700565886">
+    <state width="1237" height="85" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626701706291" />
+    <state width="1237" height="85" key="GridCell.Tab.0.left" timestamp="1626701706291">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="41" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626700565886" />
-    <state width="1237" height="41" key="GridCell.Tab.0.right" timestamp="1626700565886">
+    <state width="1237" height="85" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626701706291" />
+    <state width="1237" height="85" key="GridCell.Tab.0.right" timestamp="1626701706292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="41" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626700565886" />
-    <state width="1237" height="9" key="GridCell.Tab.1.bottom" timestamp="1626699868553">
+    <state width="1237" height="85" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626701706292" />
+    <state width="1237" height="352" key="GridCell.Tab.1.bottom" timestamp="1626700935375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626699868553" />
-    <state width="1237" height="9" key="GridCell.Tab.1.center" timestamp="1626699868553">
+    <state width="1237" height="352" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626700935375" />
+    <state width="1237" height="352" key="GridCell.Tab.1.center" timestamp="1626700935375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626699868553" />
-    <state width="1237" height="9" key="GridCell.Tab.1.left" timestamp="1626699868553">
+    <state width="1237" height="352" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626700935375" />
+    <state width="1237" height="352" key="GridCell.Tab.1.left" timestamp="1626700935375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626699868553" />
-    <state width="1237" height="9" key="GridCell.Tab.1.right" timestamp="1626699868553">
+    <state width="1237" height="352" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626700935375" />
+    <state width="1237" height="352" key="GridCell.Tab.1.right" timestamp="1626700935375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626699868553" />
+    <state width="1237" height="352" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626700935375" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1626692628691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626692628691" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1626700977558">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626700977558" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626698773276">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
