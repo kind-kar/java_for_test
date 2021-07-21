@@ -1,6 +1,5 @@
 package ru.stqa.pft.mantis.tests;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,7 +8,6 @@ import ru.stqa.pft.mantis.model.MailMessage;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertTrue;
 
@@ -31,7 +29,7 @@ public class RegistrationTests extends TestBase {
         List<MailMessage> mailMessages = app.mailHelper().waitForMail(2, 10000);
         String confirmationLink = findConfirmationLink(mailMessages, email);
         app.registration().finish(confirmationLink, password, realname);
-        assertTrue(app.newSession().login(user, email));
+        assertTrue(app.newSession().login(password, user));
     }
 
     private String findConfirmationLink(List<MailMessage> mailMessages, String email) {
