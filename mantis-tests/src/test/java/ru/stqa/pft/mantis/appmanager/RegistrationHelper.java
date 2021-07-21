@@ -1,9 +1,6 @@
 package ru.stqa.pft.mantis.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.FluentWait;
-
-import java.util.concurrent.TimeUnit;
 
 public class RegistrationHelper extends HelperBase {
 

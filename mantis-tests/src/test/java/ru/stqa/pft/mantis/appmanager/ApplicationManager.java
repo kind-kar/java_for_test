@@ -19,6 +19,8 @@ public class ApplicationManager {
     private RegistrationHelper registrationHelper;
     private FtpHelper ftp;
     private MailHelper mailHelper;
+//    private JamesHelper jamesHelper;
+    private ChangePasswordHelper passwordHelper;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -38,6 +40,10 @@ public class ApplicationManager {
 
     public HttpSession newSession() {
         return new HttpSession(this);
+    }
+
+    public ChangePasswordHelper change() {
+        return new ChangePasswordHelper(this);
     }
 
     public String getProperty(String key) {
@@ -77,4 +83,11 @@ public class ApplicationManager {
         }
         return mailHelper;
     }
+
+/*    public JamesHelper james() {
+        if (jamesHelper == null) {
+            jamesHelper = new JamesHelper(this);
+        }
+        return jamesHelper;
+    } */
 }

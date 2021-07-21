@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.testng.Assert.assertTrue;
 
-public class RegistrationTests extends TestBase {
+public class ChangePasswordTests extends TestBase {
 
     @BeforeMethod
     public void startMailServer() {
@@ -19,19 +19,19 @@ public class RegistrationTests extends TestBase {
     }
 
     @Test
-    public void testRegistration() throws IOException, InterruptedException {
-        long now = System.currentTimeMillis();
-        String email = "user@localhost.com" + now;
-        String user = "user" + now;
+    public void testChangePassword() throws IOException, InterruptedException {
+        String email = "user1@localhost.dete";
+        String user = "user13";
         String password = "password";
-        String realname = "Ivan";
-//        app.james().createUser(user, password);
-        app.registration().start(user, email);
-        List<MailMessage> mailMessages = app.mailHelper().waitForMail(2, 10000);
-//        List<MailMessage> mailMessages = app.james().waitForMail(user, password, 60000);
+        String newPassword = "newPassword";
+        String admin = "administrator";
+        app.change().init(admin, password);
+        app.newSession().login(password, admin);
+        app.change().start();
+        List<MailMessage> mailMessages = app.mailHelper().waitForMail(1, 10000);
         String confirmationLink = findConfirmationLink(mailMessages, email);
-        app.registration().finish(confirmationLink, password, realname);
-        assertTrue(app.newSession().login(password, user));
+        app.change().finish(confirmationLink, newPassword);
+        assertTrue(app.newSession().login(newPassword, user));
     }
 
     private String findConfirmationLink(List<MailMessage> mailMessages, String email) {
