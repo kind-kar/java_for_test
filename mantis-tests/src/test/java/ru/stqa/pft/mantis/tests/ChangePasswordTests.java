@@ -25,9 +25,10 @@ public class ChangePasswordTests extends TestBase {
         String password = "password";
         String newPassword = "newPassword";
         String admin = "administrator";
+        Integer userId = app.db().userId(user);
         app.change().init(admin, password);
         app.newSession().login(password, admin);
-        app.change().start();
+        app.change().start(userId);
         List<MailMessage> mailMessages = app.mailHelper().waitForMail(1, 10000);
         String confirmationLink = findConfirmationLink(mailMessages, email);
         app.change().finish(confirmationLink, newPassword);

@@ -16,9 +16,9 @@ public class ChangePasswordHelper extends HelperBase {
         click(By.cssSelector("input[type='submit']"));
     }
 
-    public void start() {
+    public void start(int userId) {
         wd.get(app.getProperty("web.baseUrl") + "/manage_user_page.php");
-        wd.findElement(By.cssSelector("a[href='manage_user_edit_page.php?user_id=15']")).click();
+        wd.findElement(By.cssSelector(String.format("a[href='manage_user_edit_page.php?user_id=%s']", userId))).click();
         click(By.cssSelector("input[value='Reset Password']"));
     }
 
