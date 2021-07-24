@@ -222,6 +222,7 @@ public class ContactData {
                 ", mobile='" + mobile + '\'' +
                 ", home='" + home + '\'' +
                 ", work='" + work + '\'' +
+                ", groups=" + groups +
                 '}';
     }
 

@@ -23,18 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/DbHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/UserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/DbConnectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/HbConnectionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/soap-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/src/main/resources/ipservice.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soap-sample/src/test/java/ru/stqa/pft/soap/GeoIPServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/RegistrationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ChangePasswordHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ChangePasswordHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626897435048</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changePassword">
+      <created>1626983879922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626983879922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +340,8 @@
     <MESSAGE value="8.6 падает тест, body не определено" />
     <MESSAGE value="8.6" />
     <MESSAGE value="changePassword (without db)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changePassword (without db)" />
+    <MESSAGE value="changePassword" />
+    <option name="LAST_COMMIT_MESSAGE" value="changePassword" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1626714833888">
@@ -348,46 +368,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626717396681" />
-    <state width="1237" height="114" key="GridCell.Tab.0.bottom" timestamp="1626983292022">
+    <state width="1237" height="66" key="GridCell.Tab.0.bottom" timestamp="1626983824738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983292022" />
-    <state width="1237" height="114" key="GridCell.Tab.0.center" timestamp="1626983292022">
+    <state width="1237" height="66" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
+    <state width="1237" height="66" key="GridCell.Tab.0.center" timestamp="1626983824737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626983292022" />
-    <state width="1237" height="114" key="GridCell.Tab.0.left" timestamp="1626983292022">
+    <state width="1237" height="66" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
+    <state width="1237" height="66" key="GridCell.Tab.0.left" timestamp="1626983824737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626983292022" />
-    <state width="1237" height="114" key="GridCell.Tab.0.right" timestamp="1626983292022">
+    <state width="1237" height="66" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
+    <state width="1237" height="66" key="GridCell.Tab.0.right" timestamp="1626983824737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626983292022" />
-    <state width="1237" height="114" key="GridCell.Tab.1.bottom" timestamp="1626983291790">
+    <state width="1237" height="66" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
+    <state width="1237" height="66" key="GridCell.Tab.1.bottom" timestamp="1626983824738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983291790" />
-    <state width="1237" height="114" key="GridCell.Tab.1.center" timestamp="1626983291790">
+    <state width="1237" height="66" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
+    <state width="1237" height="66" key="GridCell.Tab.1.center" timestamp="1626983824738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626983291790" />
-    <state width="1237" height="114" key="GridCell.Tab.1.left" timestamp="1626983291790">
+    <state width="1237" height="66" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
+    <state width="1237" height="66" key="GridCell.Tab.1.left" timestamp="1626983824738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626983291790" />
-    <state width="1237" height="114" key="GridCell.Tab.1.right" timestamp="1626983291790">
+    <state width="1237" height="66" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
+    <state width="1237" height="66" key="GridCell.Tab.1.right" timestamp="1626983824738">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="114" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626983291790" />
+    <state width="1237" height="66" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1626692628691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626692628691" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1626897501383">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1626983882354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626897501383" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626983882354" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626810689977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

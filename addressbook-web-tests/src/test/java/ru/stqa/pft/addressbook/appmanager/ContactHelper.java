@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
+import ru.stqa.pft.addressbook.model.GroupData;
+import ru.stqa.pft.addressbook.model.Groups;
 
 import java.util.List;
 
@@ -116,5 +118,50 @@ public class ContactHelper extends HelperBase{
             contacts.add(contact);
         }
         return contacts;
+    }
+
+    public void selectGroupList(String groupName) {
+        new Select(wd.findElement(By.name("group"))).selectByVisibleText(groupName);
+    }
+
+    public void addInGroup(ContactData contact, GroupData group) {
+        selectContactById(contact.getId());
+        new Select(wd.findElement(By.name("to_group"))).selectByVisibleText(group.getName());
+        click(By.xpath("(//input[@name='add'])"));
+    }
+
+    public Groups findGroupForAddi(ContactData contact, Groups groups) {
+        Groups groupsinContact = contact.getGroups();
+        groups.removeAll(groupsinContact);
+        return groups;
+    }
+
+
+
+ /*       public GroupData findGroupForAdding(ContactData contact, GroupData group, Groups groups) {
+        if (contact.getGroups().size() != 0) {
+            if (contact.getGroups() == groups) {
+                return null;
+            } else {
+                for (GroupData gr : contact.getGroups()) {
+                    if (gr != group) {
+                        return group;
+                    }
+                }
+            }
+        }
+    } */
+
+    public boolean isTheContactInGroup(ContactData contact, GroupData group) {
+//       Groups groupsWithContact = new Groups();
+        if (contact.getGroups().size() != 0) {
+            for (GroupData gr : contact.getGroups()) {
+//                groupsWithContact.add(gr);
+                if (gr == group) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
