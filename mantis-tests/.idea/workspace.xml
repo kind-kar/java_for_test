@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -301,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627213993558</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Homework 19">
+      <created>1627216328281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627216328281</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +329,8 @@
     <MESSAGE value="changePassword (without db)" />
     <MESSAGE value="changePassword" />
     <MESSAGE value="9.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.3" />
+    <MESSAGE value="Homework 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1627215201388">
@@ -390,10 +393,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626692628691" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627213995574">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627216329801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627213995574" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627216329801" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626810689977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
