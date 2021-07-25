@@ -23,30 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511976a2-85a5-4054-8115-2571bac6eefe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soap-sample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ipservice.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/soap/GeoIPServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +130,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -169,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1627145349954</updated>
     </task>
+    <task id="LOCAL-00001" summary="wsdl2java">
+      <created>1627149114266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627149114266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="wsdl2java" />
+    <option name="LAST_COMMIT_MESSAGE" value="wsdl2java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1627147467883">
@@ -194,13 +186,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1627148653273" />
+    <state x="413" y="83" key="FileChooserDialogImpl" timestamp="1627148738904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="413" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627148738904" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1627148565884">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627148565884" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627149117125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627149117125" />
     <state x="348" y="73" width="585" height="534" key="find.popup" timestamp="1627148282967">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="73" width="585" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1627148282967" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1627148750705">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1627148750705" />
   </component>
 </project>

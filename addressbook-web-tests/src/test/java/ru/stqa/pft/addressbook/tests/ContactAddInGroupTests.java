@@ -1,7 +1,5 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
@@ -36,26 +34,26 @@ public class ContactAddInGroupTests extends TestBase{
     public void testContactAddInGroup() {
         Groups allGroups = app.db().groups();
         Contacts allContacts = app.db().contacts();
+        GroupData selectedGroup;
         ContactData addedContactToGroup = allContacts.iterator().next();
-//        ContactData contact = addedContactToGroup.inGroup(selectedGroup);
-        app.contact().findGroupForAddi(addedContactToGroup, allGroups);
-        GroupData selectedGroup = allGroups.iterator().next();
-        if (app.contact().isTheContactInGroup(addedContactToGroup, selectedGroup)) {
-//            app.contact().selectGroupList("[none]");
-        } else {
+        app.contact().findGroupForAdding(addedContactToGroup, allGroups);
+        if (allGroups.size() == 0) {
             GroupData newGroup = new GroupData().withName("test1").withName("test2").withFooter("test3");
             app.goTo().groupPage();
             app.group().create(newGroup);
             Groups after = app.db().groups();
             selectedGroup = newGroup.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt());
             app.goTo().gotoHomePage();
+        } else {
+            selectedGroup = allGroups.iterator().next();
         }
+        ContactData contact = addedContactToGroup.inGroup(selectedGroup);
         app.contact().addInGroup(addedContactToGroup, selectedGroup);
         app.goTo().gotoHomePage();
+        app.contact().selectGroupList(selectedGroup);
         Contacts after = app.db().contacts();
-//            assertEquals(after.size(), allContacts.size() - 1);
-//            assertThat(after, equalTo(allContacts.without(addedContactToGroup).withAdded(contact)));
-//            verifyContactListInUI();
-
+        assertEquals(after.size(), allContacts.size());
+        assertThat(after, equalTo(allContacts.without(addedContactToGroup).withAdded(contact)));
+        verifyContactListInUI();
     }
 }

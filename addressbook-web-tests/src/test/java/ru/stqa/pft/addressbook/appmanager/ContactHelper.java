@@ -120,8 +120,8 @@ public class ContactHelper extends HelperBase{
         return contacts;
     }
 
-    public void selectGroupList(String groupName) {
-        new Select(wd.findElement(By.name("group"))).selectByVisibleText(groupName);
+    public void selectGroupList(GroupData group) {
+        new Select(wd.findElement(By.name("group"))).selectByVisibleText(group.getName());
     }
 
     public void addInGroup(ContactData contact, GroupData group) {
@@ -130,9 +130,9 @@ public class ContactHelper extends HelperBase{
         click(By.xpath("(//input[@name='add'])"));
     }
 
-    public Groups findGroupForAddi(ContactData contact, Groups groups) {
-        Groups groupsinContact = contact.getGroups();
-        groups.removeAll(groupsinContact);
+    public Groups findGroupForAdding(ContactData contact, Groups groups) {
+        Groups groupsInContact = contact.getGroups();
+        groups.removeAll(groupsInContact);
         return groups;
     }
 
@@ -152,7 +152,7 @@ public class ContactHelper extends HelperBase{
         }
     } */
 
-    public boolean isTheContactInGroup(ContactData contact, GroupData group) {
+/*    public boolean isTheContactInGroup(ContactData contact, GroupData group) {
 //       Groups groupsWithContact = new Groups();
         if (contact.getGroups().size() != 0) {
             for (GroupData gr : contact.getGroups()) {
@@ -163,5 +163,5 @@ public class ContactHelper extends HelperBase{
             }
         }
         return false;
-    }
+    } */
 }
