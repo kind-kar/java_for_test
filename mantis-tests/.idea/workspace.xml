@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/Issue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/SoapTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626983879922</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="9.3">
+      <created>1627213976885</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627213976885</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +314,8 @@
     <MESSAGE value="8.6" />
     <MESSAGE value="changePassword (without db)" />
     <MESSAGE value="changePassword" />
-    <option name="LAST_COMMIT_MESSAGE" value="changePassword" />
+    <MESSAGE value="9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1626714833888">

@@ -30,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/out/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/out/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
