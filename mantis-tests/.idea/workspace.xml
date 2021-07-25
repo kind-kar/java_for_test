@@ -23,13 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactRemoveTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactRemoveTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/Issue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/SoapTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +89,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -107,7 +110,7 @@
       <recent name="C:\Users\Nik\GitHub\java_for_test\mantis-tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChangePasswordTests">
+  <component name="RunManager" selected="TestNG.SoapTests">
     <configuration name="ChangePasswordTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
       <extension name="coverage">
@@ -177,27 +180,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoapTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.stqa.pft.mantis.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.mantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.mantis.tests.RegistrationTests" />
-      <option name="GROUP_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.mantis.tests.SoapTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -205,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.ChangePasswordTests" />
       <item itemvalue="TestNG.HbConnectionTests" />
       <item itemvalue="TestNG.DbConnectionTests" />
       <item itemvalue="TestNG.HbConnectionTests.testHbConnection" />
+      <item itemvalue="TestNG.SoapTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SoapTests" />
         <item itemvalue="TestNG.ChangePasswordTests" />
         <item itemvalue="TestNG.HbConnectionTests" />
         <item itemvalue="TestNG.HbConnectionTests.testHbConnection" />
         <item itemvalue="TestNG.DbConnectionTests" />
-        <item itemvalue="TestNG.RegistrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -344,46 +337,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1626699048125" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1626978148884">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1627211476897">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626978148884" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1627211476897" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626717396681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626717396681" />
-    <state width="1237" height="66" key="GridCell.Tab.0.bottom" timestamp="1626983824738">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
-    <state width="1237" height="66" key="GridCell.Tab.0.center" timestamp="1626983824737">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
-    <state width="1237" height="66" key="GridCell.Tab.0.left" timestamp="1626983824737">
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
-    <state width="1237" height="66" key="GridCell.Tab.0.right" timestamp="1626983824737">
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626983824737" />
-    <state width="1237" height="66" key="GridCell.Tab.1.bottom" timestamp="1626983824738">
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="66" key="GridCell.Tab.1.bottom" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
-    <state width="1237" height="66" key="GridCell.Tab.1.center" timestamp="1626983824738">
+    <state width="1237" height="66" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="66" key="GridCell.Tab.1.center" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
-    <state width="1237" height="66" key="GridCell.Tab.1.left" timestamp="1626983824738">
+    <state width="1237" height="66" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="66" key="GridCell.Tab.1.left" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
-    <state width="1237" height="66" key="GridCell.Tab.1.right" timestamp="1626983824738">
+    <state width="1237" height="66" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="66" key="GridCell.Tab.1.right" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="66" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626983824738" />
+    <state width="1237" height="66" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1626692628691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -396,10 +389,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1626810689977" />
+    <state x="245" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627212440549">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="245" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1627212440549" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626886531865">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1626886531865" />
+    <state x="371" y="102" key="extract.method.dialog" timestamp="1627212458092">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="102" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1627212458092" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
