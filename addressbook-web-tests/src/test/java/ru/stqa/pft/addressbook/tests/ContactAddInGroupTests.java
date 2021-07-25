@@ -26,7 +26,7 @@ public class ContactAddInGroupTests extends TestBase{
         }
         if (app.db().groups().size() == 0) {
             app.goTo().groupPage();
-            app.group().create(new GroupData().withName("test1").withName("test2").withFooter("test3"));
+            app.group().create(new GroupData().withName("test 1").withHeader("test 2").withFooter("test 3"));
         }
     }
 
@@ -38,7 +38,7 @@ public class ContactAddInGroupTests extends TestBase{
         ContactData addedContactToGroup = allContacts.iterator().next();
         app.contact().findGroupForAdding(addedContactToGroup, allGroups);
         if (allGroups.size() == 0) {
-            GroupData newGroup = new GroupData().withName("test1").withName("test2").withFooter("test3");
+            GroupData newGroup = new GroupData().withName("test 1").withHeader("test 2").withFooter("test 3");
             app.goTo().groupPage();
             app.group().create(newGroup);
             Groups after = app.db().groups();
@@ -47,13 +47,16 @@ public class ContactAddInGroupTests extends TestBase{
         } else {
             selectedGroup = allGroups.iterator().next();
         }
-        ContactData contact = addedContactToGroup.inGroup(selectedGroup);
         app.contact().addInGroup(addedContactToGroup, selectedGroup);
         app.goTo().gotoHomePage();
         app.contact().selectGroupList(selectedGroup);
         Contacts after = app.db().contacts();
         assertEquals(after.size(), allContacts.size());
-        assertThat(after, equalTo(allContacts.without(addedContactToGroup).withAdded(contact)));
+        for (ContactData contact : after) {
+            if (contact.getId() == addedContactToGroup.getId()) {
+                assertThat(addedContactToGroup.getGroups().withAdded(selectedGroup), equalTo(contact.getGroups()));
+            }
+        }
         verifyContactListInUI();
     }
 }

@@ -121,13 +121,18 @@ public class ContactHelper extends HelperBase{
     }
 
     public void selectGroupList(GroupData group) {
-        new Select(wd.findElement(By.name("group"))).selectByVisibleText(group.getName());
+        new Select(wd.findElement(By.name("group"))).selectByValue(String.valueOf(group.getId()));
     }
 
     public void addInGroup(ContactData contact, GroupData group) {
         selectContactById(contact.getId());
-        new Select(wd.findElement(By.name("to_group"))).selectByVisibleText(group.getName());
+        new Select(wd.findElement(By.name("to_group"))).selectByValue(String.valueOf(group.getId()));
         click(By.xpath("(//input[@name='add'])"));
+    }
+
+    public void removeInGroup(ContactData contact, GroupData group) {
+        selectContactById(contact.getId());
+        click(By.xpath("(//input[@name='remove'])"));
     }
 
     public Groups findGroupForAdding(ContactData contact, Groups groups) {
