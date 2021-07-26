@@ -22,7 +22,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="" />
+    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/Issue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/RestTests$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/RestTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/Issue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/RestTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +53,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../rest-sample">
       <ProjectState />
     </projectState>
   </component>
@@ -79,8 +105,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-sample/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -303,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627216328281</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Homework 19">
+      <created>1627216350132</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627216350132</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,10 +386,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1627211476897" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1626717396681">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1627319568609">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626717396681" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627319568609" />
     <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -389,14 +422,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="66" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1626692628691">
+    <state x="348" y="100" key="NewModule_or_Project.wizard" timestamp="1627319560411">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626692628691" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627216329801">
+    <state x="348" y="100" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1627319560411" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1627319571267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627216329801" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627319571267" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627216366127">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627216366127" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626810689977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

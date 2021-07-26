@@ -23,9 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511976a2-85a5-4054-8115-2571bac6eefe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rest-sample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/SoapHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +132,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-sample" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -184,10 +188,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1627148653273" />
-    <state x="413" y="83" key="FileChooserDialogImpl" timestamp="1627148738904">
+    <state x="413" y="83" key="FileChooserDialogImpl" timestamp="1627319639864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="413" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627148738904" />
+    <state x="413" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627319639864" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1627148565884">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
