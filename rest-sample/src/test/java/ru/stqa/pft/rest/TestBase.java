@@ -11,10 +11,10 @@ import java.io.IOException;
 public class TestBase {
 
     public boolean isIssueOpen(int issueId) throws IOException {
-        String json = getExecutor().execute(Request.Get("https://bugify.stqa.ru/api/issues.json")).
+        String json = getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issueId))).
                 returnContent().asString();
         JsonElement parsed = JsonParser.parseString(json);
-        String issueId = parsed.getAsJsonObject().get("issue_id").getAsInt();
+        String state = parsed.getAsJsonObject().get("state_name").getAsString();
         if (state == "Open") {
             return true;
         } else {
@@ -22,7 +22,7 @@ public class TestBase {
         }
     } 
 
-    public void skipIfNotFixed(int issueId) {
+    public void skipIfNotFixed(int issueId) throws IOException {
         if (isIssueOpen(issueId)) {
             throw new SkipException("Ignored because of issue " + issueId);
         }

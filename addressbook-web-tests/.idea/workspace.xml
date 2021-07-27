@@ -23,28 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d958a6e2-efee-4449-b495-aedab9360147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/Issue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/RestTests$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/RestTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/out/test/classes/ru/stqa/pft/rest/TestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/Issue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/RestTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soap-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
