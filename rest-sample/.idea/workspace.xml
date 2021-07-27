@@ -24,9 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bd607bd3-581f-4be3-ac63-d05d41fd18b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627330587171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework 20">
+      <created>1627406408867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627406408867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="9.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.4" />
+    <MESSAGE value="Homework 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1627324590399">
@@ -231,10 +240,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627327382223" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627330588466">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627406410407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627330588466" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627406410407" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1627324638673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

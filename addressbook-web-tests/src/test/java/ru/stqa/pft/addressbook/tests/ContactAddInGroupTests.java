@@ -34,19 +34,24 @@ public class ContactAddInGroupTests extends TestBase{
     public void testContactAddInGroup() {
         Groups allGroups = app.db().groups();
         Contacts allContacts = app.db().contacts();
+        Contacts contactsForAdding = new Contacts();
         GroupData selectedGroup;
-        ContactData addedContactToGroup = allContacts.iterator().next();
-        app.contact().findGroupForAdding(addedContactToGroup, allGroups);
-        if (allGroups.size() == 0) {
+        for (ContactData contactData : allContacts) {
+            Groups groups = contactData.getGroups();
+            if (groups.size() < allGroups.size()) {
+                contactsForAdding.add(contactData);
+            }
+        }
+        if (contactsForAdding.size() == 0) {
             GroupData newGroup = new GroupData().withName("test 1").withHeader("test 2").withFooter("test 3");
             app.goTo().groupPage();
             app.group().create(newGroup);
             Groups after = app.db().groups();
             selectedGroup = newGroup.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt());
             app.goTo().gotoHomePage();
-        } else {
-            selectedGroup = allGroups.iterator().next();
         }
+        ContactData addedContactToGroup = contactsForAdding.iterator().next();
+        selectedGroup = app.contact().findGroupForAdding(addedContactToGroup, allGroups).iterator().next();
         app.contact().addInGroup(addedContactToGroup, selectedGroup);
         app.goTo().gotoHomePage();
         app.contact().selectGroupList(selectedGroup);

@@ -24,9 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d958a6e2-efee-4449-b495-aedab9360147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/ru/stqa/pft/rest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <recent name="ru.stqa.pft.mantis" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests">
+  <component name="RunManager" selected="TestNG.ContactAddInGroupTests.testContactAddInGroup">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sample" />
       <module name="mantis-tests.main" />
@@ -118,6 +119,24 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="ContactAddInGroupTests.testContactAddInGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactAddInGroupTests" />
+      <option name="METHOD_NAME" value="testContactAddInGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests.test" />
@@ -167,9 +186,11 @@
       <item itemvalue="Gradle.LoginTests" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.RegistrationTests" />
+      <item itemvalue="TestNG.ContactAddInGroupTests.testContactAddInGroup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactAddInGroupTests.testContactAddInGroup" />
         <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="TestNG.LoginTests" />
@@ -250,6 +271,44 @@
     <MESSAGE value="httpClient" />
     <MESSAGE value="8.6" />
     <option name="LAST_COMMIT_MESSAGE" value="8.6" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1627409490315">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627409490315" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1627409490315">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627409490315" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1627409490315">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627409490315" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1627409490315">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627409490315" />
+    <state width="1237" height="235" key="GridCell.Tab.1.bottom" timestamp="1627409490100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627409490100" />
+    <state width="1237" height="235" key="GridCell.Tab.1.center" timestamp="1627409490100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627409490100" />
+    <state width="1237" height="235" key="GridCell.Tab.1.left" timestamp="1627409490100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627409490100" />
+    <state width="1237" height="235" key="GridCell.Tab.1.right" timestamp="1627409490100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627409490100" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1627408360734">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1627408360734" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
