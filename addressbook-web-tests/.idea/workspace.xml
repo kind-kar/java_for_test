@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d958a6e2-efee-4449-b495-aedab9360147" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,32 +89,13 @@
       <recent name="ru.stqa.pft.mantis" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactAddInGroupTests.testContactAddInGroup">
+  <component name="RunManager" selected="TestNG.ContactRemoveTests">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sample" />
       <module name="mantis-tests.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../mantis-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.pft.mantis.tests.LoginTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="ContactAddInGroupTests.testContactAddInGroup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
@@ -132,6 +109,23 @@
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactAddInGroupTests" />
       <option name="METHOD_NAME" value="testContactAddInGroup" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactRemoveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactRemoveTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -183,18 +177,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Sample" />
-      <item itemvalue="Gradle.LoginTests" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.ContactAddInGroupTests.testContactAddInGroup" />
+      <item itemvalue="TestNG.ContactRemoveTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactRemoveTests" />
         <item itemvalue="TestNG.ContactAddInGroupTests.testContactAddInGroup" />
         <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="Gradle.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626861316298</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework 16 fix addInGroup">
+      <created>1627409636429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627409636430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +271,8 @@
     <MESSAGE value="pattern for tests (8.2)" />
     <MESSAGE value="httpClient" />
     <MESSAGE value="8.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.6" />
+    <MESSAGE value="Homework 16 fix addInGroup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 16 fix addInGroup" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1627409490315">
@@ -305,6 +307,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="235" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627409490100" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627409638087">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627409638087" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1627408360734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

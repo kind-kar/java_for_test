@@ -34,15 +34,23 @@ public class ContactRemoveTests extends TestBase{
     public void testContactRemoveFromGroup() {
         Groups allGroups = app.db().groups();
         Contacts allContacts = app.db().contacts();
+        Contacts contactsForRemoving = new Contacts();
         GroupData selectedGroup;
-        ContactData deletedContactFromGroup = allContacts.iterator().next();
-        if (deletedContactFromGroup.getGroups().size() == 0) {
+        ContactData deletedContactFromGroup;
+        for (ContactData contactData : allContacts) {
+            Groups groups = contactData.getGroups();
+            if (groups.size() >= 1) {
+                contactsForRemoving.add(contactData);
+            }
+        }
+        if (contactsForRemoving.size() == 0) {
+            deletedContactFromGroup = allContacts.iterator().next();
             selectedGroup = allGroups.iterator().next();
             app.contact().addInGroup(deletedContactFromGroup, selectedGroup);
             app.goTo().gotoHomePage();
-        } else {
-            selectedGroup = deletedContactFromGroup.getGroups().iterator().next();
         }
+        deletedContactFromGroup = contactsForRemoving.iterator().next();
+        selectedGroup = deletedContactFromGroup.getGroups().iterator().next();
         app.contact().selectGroupList(selectedGroup);
         app.contact().removeInGroup(deletedContactFromGroup, selectedGroup);
         app.goTo().gotoHomePage();
