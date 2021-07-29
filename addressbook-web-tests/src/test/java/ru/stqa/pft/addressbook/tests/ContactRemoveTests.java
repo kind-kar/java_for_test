@@ -19,7 +19,7 @@ public class ContactRemoveTests extends TestBase{
     public void ensurePreconditions() {
         if (app.db().groups().size() == 0) {
             app.goTo().groupPage();
-            app.group().create(new GroupData().withName("test1").withName("test2").withFooter("test3"));
+            app.group().create(new GroupData().withName("test 1").withName("test 2").withFooter("test 3"));
         }
         if (app.db().contacts().size() == 0) {
             app.goTo().contactPage();
@@ -44,10 +44,11 @@ public class ContactRemoveTests extends TestBase{
             }
         }
         if (contactsForRemoving.size() == 0) {
-            deletedContactFromGroup = allContacts.iterator().next();
+            ContactData addContactInGroup = allContacts.iterator().next();
             selectedGroup = allGroups.iterator().next();
-            app.contact().addInGroup(deletedContactFromGroup, selectedGroup);
+            app.contact().addInGroup(addContactInGroup, selectedGroup);
             app.goTo().gotoHomePage();
+            contactsForRemoving.add(addContactInGroup.inGroup(selectedGroup));
         }
         deletedContactFromGroup = contactsForRemoving.iterator().next();
         selectedGroup = deletedContactFromGroup.getGroups().iterator().next();

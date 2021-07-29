@@ -142,7 +142,6 @@ public class ContactHelper extends HelperBase{
     }
 
 
-
  /*       public GroupData findGroupForAdding(ContactData contact, GroupData group, Groups groups) {
         if (contact.getGroups().size() != 0) {
             if (contact.getGroups() == groups) {

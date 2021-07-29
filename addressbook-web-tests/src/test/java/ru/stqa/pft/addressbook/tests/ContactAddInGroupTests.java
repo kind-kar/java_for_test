@@ -27,6 +27,7 @@ public class ContactAddInGroupTests extends TestBase{
         if (app.db().groups().size() == 0) {
             app.goTo().groupPage();
             app.group().create(new GroupData().withName("test 1").withHeader("test 2").withFooter("test 3"));
+            app.goTo().gotoHomePage();
         }
     }
 
@@ -46,8 +47,8 @@ public class ContactAddInGroupTests extends TestBase{
             GroupData newGroup = new GroupData().withName("test 1").withHeader("test 2").withFooter("test 3");
             app.goTo().groupPage();
             app.group().create(newGroup);
-            Groups after = app.db().groups();
-            selectedGroup = newGroup.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt());
+            allGroups = app.db().groups();
+            contactsForAdding = allContacts;
             app.goTo().gotoHomePage();
         }
         ContactData addedContactToGroup = contactsForAdding.iterator().next();
