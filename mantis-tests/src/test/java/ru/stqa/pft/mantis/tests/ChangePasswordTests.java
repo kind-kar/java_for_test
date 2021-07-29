@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.lanwen.verbalregex.VerbalExpression;
 import ru.stqa.pft.mantis.model.MailMessage;
+import ru.stqa.pft.mantis.model.UserData;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,12 +21,14 @@ public class ChangePasswordTests extends TestBase {
 
     @Test
     public void testChangePassword() throws IOException, InterruptedException {
-        String email = "user1@localhost.dete";
-        String user = "user13";
+        UserData userData = app.db().users().iterator().next();
+        String email = userData.getEmail();
+        String user = userData.getUsername();
         String password = "password";
         String newPassword = "newPassword";
         String admin = "administrator";
-        Integer userId = app.db().userId(user);
+        Integer userId = userData.getId();
+//        Integer userId = app.db().userId(user);
         app.change().init(admin, password);
         app.newSession().login(password, admin);
         app.change().start(userId);

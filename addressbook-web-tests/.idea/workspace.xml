@@ -24,13 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d958a6e2-efee-4449-b495-aedab9360147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactRemoveTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/ContactRemoveTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactAddInGroupTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactRemoveTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/DbHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/model/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627410594251</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework 16 fix">
+      <created>1627585256807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627585256807</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,25 +292,26 @@
     <MESSAGE value="8.6" />
     <MESSAGE value="Homework 16 fix addInGroup" />
     <MESSAGE value="Homework 16 fix removeFromGroup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 16 fix removeFromGroup" />
+    <MESSAGE value="Homework 16 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 16 fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="279" key="GridCell.Tab.0.bottom" timestamp="1627585122836">
+    <state width="1237" height="329" key="GridCell.Tab.0.bottom" timestamp="1627585152900">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="279" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627585122836" />
-    <state width="1237" height="279" key="GridCell.Tab.0.center" timestamp="1627585122836">
+    <state width="1237" height="329" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627585152900" />
+    <state width="1237" height="329" key="GridCell.Tab.0.center" timestamp="1627585152900">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="279" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627585122836" />
-    <state width="1237" height="279" key="GridCell.Tab.0.left" timestamp="1627585122836">
+    <state width="1237" height="329" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627585152900" />
+    <state width="1237" height="329" key="GridCell.Tab.0.left" timestamp="1627585152900">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="279" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627585122836" />
-    <state width="1237" height="279" key="GridCell.Tab.0.right" timestamp="1627585122836">
+    <state width="1237" height="329" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627585152900" />
+    <state width="1237" height="329" key="GridCell.Tab.0.right" timestamp="1627585152900">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="279" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627585122836" />
+    <state width="1237" height="329" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627585152900" />
     <state width="1237" height="279" key="GridCell.Tab.1.bottom" timestamp="1627585122837">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -324,10 +328,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="279" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627585122837" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627410595879">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627585258759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627410595879" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627585258759" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1627408360734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

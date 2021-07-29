@@ -1,7 +1,5 @@
 package ru.stqa.pft.mantis.model;
 
-import org.hibernate.annotations.Type;
-
 import javax.persistence.*;
 import java.util.Objects;
 
