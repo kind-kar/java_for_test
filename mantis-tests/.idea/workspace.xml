@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/appmanager/DbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/model/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/mantis/tests/ChangePasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627216350132</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Homework 18 fix">
+      <created>1627586348171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627586348171</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +349,8 @@
     <MESSAGE value="changePassword" />
     <MESSAGE value="9.3" />
     <MESSAGE value="Homework 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 19" />
+    <MESSAGE value="Homework 18 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 18 fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Intentions" timestamp="1627215201388">
@@ -373,22 +377,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627319568609" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1627211932399">
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom" timestamp="1627586287909">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1627211932399">
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627586287909" />
+    <state width="1237" height="209" key="GridCell.Tab.0.center" timestamp="1627586287908">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1627211932399">
+    <state width="1237" height="209" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627586287908" />
+    <state width="1237" height="209" key="GridCell.Tab.0.left" timestamp="1627586287908">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1627211932399">
+    <state width="1237" height="209" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627586287908" />
+    <state width="1237" height="209" key="GridCell.Tab.0.right" timestamp="1627586287908">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627211932399" />
+    <state width="1237" height="209" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627586287908" />
     <state width="1237" height="66" key="GridCell.Tab.1.bottom" timestamp="1627211932399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -413,10 +417,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627319571267" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627216366127">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627586349535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627216366127" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627586349535" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626810689977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
