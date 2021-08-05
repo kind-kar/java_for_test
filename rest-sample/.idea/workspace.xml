@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd607bd3-581f-4be3-ac63-d05d41fd18b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mantis-tests/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" afterDir="false" />
-    </list>
+    <list default="true" id="bd607bd3-581f-4be3-ac63-d05d41fd18b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

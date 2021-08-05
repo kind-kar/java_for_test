@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/mantis/tests/TestBase.class" afterDir="false" />
-    </list>
+    <list default="true" id="5198831d-2e20-422b-9b8f-821bfe48f59c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-sample/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -322,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627586348171</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Homework 18 fix">
+      <created>1628155611682</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628155611682</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,10 +378,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1627211476897" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1627319568609">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1628155498185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1627319568609" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628155498185" />
     <state width="1237" height="209" key="GridCell.Tab.0.bottom" timestamp="1627586287909">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -417,10 +422,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627319571267" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1627586349535">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1628155614101">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1627586349535" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1628155614101" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1626810689977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
